@@ -1,0 +1,321 @@
+/*!
+ * Start Bootstrap - 3 Col Portfolio (https://startbootstrap.com/template-overviews/3-col-portfolio)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-3-col-portfolio/blob/master/LICENSE)
+ */
+
+
+
+/***********************************************
+adding fonts
+***********************************************/
+
+@font-face {
+  font-family: 'aleoRegular';
+  src: url('../fonts/aleo/Aleo-Regular.otf');
+}
+
+@font-face {
+font-family: 'aleoBold';
+src: url('../fonts/aleo/Aleo-Bold.otf');
+}
+
+/***********************************************
+Modification
+***********************************************/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-top: 54px;
+}
+
+/********container********************/
+
+.container {
+  max-width: 1440px;
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/***********************************************
+navbav
+************************************************/
+
+.navbar-dark{
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 60px;
+  background-color: #000000;
+}
+
+.navbar-brand {
+  font-family: 'aleoBold#000000', 'sans-serif';
+}
+
+
+/****************navbar collapse*********/
+
+#navbarResponsive {
+  background-color: #000000!important;
+}
+
+.nav-link {
+  font-family: 'aleoRegular', 'sans-serif';
+  font-size: 15px;
+  text-align: right;
+  color: #ffffff!important;
+  padding-right: 1.5rem!important;
+  padding-left: 1.5rem!important;
+}
+
+.nav-collapse a {
+  color: #ffffff;
+}
+
+
+/********facebook user****************/
+
+.facebook-user {
+  margin-left: 15%;
+}
+
+.user-name {
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.oval {
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+
+/***********************************************
+Banner
+************************************************/
+
+.mask {
+  background-image: url("../images/pexels-photo-509780.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 576px;
+  display: flex;
+}
+
+.discover-smart-news {
+  background-color: rgba(0,0,0,0.4);
+  width: 100%;
+}
+
+.discover-smart-news h2 {
+  align-items: stretch;
+  color: #ffffff;
+  font-family: aleoBold, 'sans-serif';
+  font-size: 60px;
+  text-align: center;
+  padding-top: 15%;
+  margin: 0 auto;
+}
+
+
+/***********************************************
+Latest news
+************************************************/
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.latest-news {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: aleoBold, 'sans-serif';
+  font-size: 40px;
+  color: #000000;
+}
+
+/**********************item***********/
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.card {
+  border: none;
+}
+.image {
+  width: 100%;
+}
+
+.card-body {
+  padding: 0;
+  flex: 0 1 auto;
+}
+
+.card-title {
+  margin-top: 20px;
+  font-family: aleoBold, 'sans-serif';
+  font-size: 30px;
+  line-height: 1.33;
+  text-align: left;
+}
+
+.card-title a {
+  color: #000000;
+}
+
+.card-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  color: #000000;
+}
+
+
+/******************social******************/
+
+.social {
+  margin-top: 20px;
+}
+
+.social img {
+  width: 24px;
+  height: 24px;
+}
+
+.social li {
+  display: inline-block;
+  width: 150px;
+  list-style-type: none;
+  margin-left: -40px;
+  margin-right: 40px;
+}
+
+.social li img, .social li p {
+  display: inline-block;
+}
+
+.social li p {
+  margin-left: 10px;
+  margin-top: 2px;
+  font-family: 'Roboto', 'sans-serif';
+  font-weight: 500;
+  font-size: 17px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+
+/************************************************
+Pagination
+*************************************************/
+
+.pagination {
+  width: 98%;
+  margin: 0 auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: 'aleoBold', 'sans-serif';
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 2;
+  letter-spacing: 2.4px;
+  text-align: center;
+  border: 1px solid #000000;
+  border-radius: 0%;
+  margin-bottom: 60px;
+}
+
+.pagination a {
+  color: #000000;
+}
+
+/************************************************
+footer
+*************************************************/
+
+.social-links {
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.social-links ul li{
+  list-style-type: none;
+  display: inline-block;
+}
+
+.social-links ul {
+  margin-left: -40px;
+  padding-top: 15px;
+}
+
+.social-links a {
+  padding: 15px 15px;
+  font-family: 'aleoRegular', 'sans-serif';
+  font-size: 15px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/************************************************
+Responsive
+*************************************************/
+
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+@media (max-width: 992px) {
+  .facebook-user {
+    display: inline-block;
+    width: 100%;
+
+  }
+  .facebook-user-small {
+    background-color: black;
+    border-radius: 5px 5px;
+    padding: 5px;
+    width: 150px;
+    margin-left: 55%;
+  }
+  .mask {
+    height: 320px;
+  }
+  .discover-smart-news h2 {
+    font-size: 48px;
+    padding-top: 15%;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .mask {
+    height: 240px;
+    background-size:cover;
+  }
+  .discover-smart-news h2 {
+    font-size: 36px;
+    padding-top: 20%;
+  }
+}
